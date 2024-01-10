@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Rubik+Doodle+Shadow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 25px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0 30px;
+    /*display: inline-block;*/
+    color: #696969;
+   background-color: #6969692c;
+    border-radius: 25px;
+    padding: 5px 15px;
+    line-height: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+article{
+    background-image: url(/img/fondo.jpg);
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+footer{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    background-color: black;
+    color: white;
+}
+
+.title-h3{
+    font-size: 20px;
+}
+.title-h1{
+    font-size: 50px;
+    padding: 80px 0 ;
+}
